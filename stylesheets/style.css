@@ -155,12 +155,12 @@
 
 
     @media screen and (max-width: 600px) {
-        form, input[type="text"], .todo-item {
+        form, .js-todo-input, .todo-item {
           width: 100%;
         }
       }
 
-    input[type="text"] {
+    .js-todo-input {
     width: 100%;
     padding: 10px;
     border-radius: 4px;

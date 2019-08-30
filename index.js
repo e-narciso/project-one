@@ -40,7 +40,7 @@ function deleteTodo(key) {
   item.remove();
   const list = document.querySelector('.js-todo-list');
   if (todoItems.length === 0) list.innerHTML = '';
-  document.querySelector('.js-todo-input').focus();
+  // document.querySelector('.js-todo-input').focus();
 }
 
 const form = document.querySelector('.js-form');
@@ -52,7 +52,7 @@ form.addEventListener('submit', e => {
   if(text !== ''){
   	addTodo(text);
     input.value = '';
-    input.focus();
+    // input.focus();
   } else alert('You must have SOMETHING to do... right?')
 });
 
